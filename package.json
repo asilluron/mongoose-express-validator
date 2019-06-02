@@ -5,7 +5,8 @@
   "main": "./dist/mevalidator.js",
   "types": "./dist/mevalidator.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
