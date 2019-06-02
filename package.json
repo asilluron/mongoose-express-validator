@@ -1,0 +1,35 @@
+{
+  "name": "mongoose-express-validator",
+  "version": "0.0.0",
+  "description": "Express Middleware for validating incoming data based on mongoose model validation",
+  "main": "./dist/mevalidator.js",
+  "types": "./dist/mevalidator.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilluron/mongoose-express-validator.git"
+  },
+  "keywords": [
+    "Mongoose",
+    "express",
+    "middleware",
+    "validation",
+    "validator",
+    "mongo"
+  ],
+  "author": "Andrew Silluron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asilluron/mongoose-express-validator/issues"
+  },
+  "homepage": "https://github.com/asilluron/mongoose-express-validator#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
