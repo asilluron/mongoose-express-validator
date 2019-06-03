@@ -31,7 +31,7 @@ export default function(modelPath:string, model:any):express.RequestHandler {
           }
           message += error.errors[key].message;
         });
-        res.send(message).status(400);
+        res.status(400).send(message);
         res.end();
         return false; // Do not call next
       }

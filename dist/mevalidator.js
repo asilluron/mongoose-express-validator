@@ -31,7 +31,7 @@ function validateModel(req, res, model) {
             }
             message_1 += error.errors[key].message;
         });
-        res.send(message_1).status(400);
+        res.status(400).send(message_1);
         res.end();
         return false; // Do not call next
     }
